@@ -1,0 +1,46 @@
+/* Deep teal-green gradient Hero background */
+.VPHome {
+  background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a2332 100%);
+  padding: 2rem 0;
+}
+
+/* Title gradient text */
+.VPHero .name {
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #58a6ff 0%, #3fb950 50%, #7ee787 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Feature card hover effect */
+.VPFeature {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  transition: all 0.3s ease !important;
+}
+.VPFeature:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(88, 166, 255, 0.5) !important;
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 40px rgba(88, 166, 255, 0.15) !important;
+}
+
+/* Navbar frosted glass effect */
+.VPNav {
+  background: rgba(13, 17, 23, 0.9) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Button gradient */
+.VPButton.medium.brand {
+  background: linear-gradient(135deg, #58a6ff 0%, #3fb950 100%);
+  border: none;
+}
+.VPButton.medium.brand:hover {
+  background: linear-gradient(135deg, #79b8ff 0%, #56d364 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(88, 166, 255, 0.35);
+}
